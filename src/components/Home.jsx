@@ -1,4 +1,6 @@
 import React from 'react'
+import About from './About'
+import Details from './Details'
 import Features from './Features'
 import Hero from './Hero'
 import Navbar from './Navbar'
@@ -10,6 +12,8 @@ function Home() {
      <Navbar/>
      <Hero/>
      <Features/>
+     <About/>
+     <Details/>
     </>
   )
 }
