@@ -56,7 +56,7 @@ useEffect(()=>{
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>Gallery</li>
                     {/* </NavLink> */}
                     {/* <NavLink to="/contact" > */}
-                    <li className='ml-40 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-[#0B0961] text-center font-bold bg-white p-4 rounded h-12 w-40  '>Login</li>
+                    <li className='ml-40 text-sm uppercase hover:border-b-2 cursor-pointer text-[#0B0961] text-center font-bold bg-white p-4 rounded h-12 w-20  '>Login</li>
                     {/* </NavLink> */}
             </ul>
             

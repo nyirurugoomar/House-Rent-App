@@ -4,7 +4,7 @@ import check from '../assets/check-square.png'
 function Details() {
   return (
     <>
-    <div id='detail' className='w-screen h-full text-center mt-20 '>
+    <div id='detail' className='w-screen h-full text-center mt-20 bg-[#D9D9D9] p-20 '>
         <div className='grid md:grid-cols-2 max-w-[1340px] m-auto mx-10  '> 
         <div className='flex flex-col justify-center md:items-start mb-20 '>
             {/* <h1 className=' text-[75px] text-start text-white font-[700] tracking-wide '>Let Us Help You To Choose Your Best</h1> */}
