@@ -1,7 +1,8 @@
 import React,{useState, useEffect} from 'react'
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
 import {FaFacebook, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
-// import { NavLink } from "react-router-dom";
+
+import { NavLink } from "react-router-dom";
 import logo from '../assets/logo.png'
 
 function Navbar() {
@@ -29,7 +30,6 @@ useEffect(()=>{
         {/* <NavLink to="/" > */}
             <img src=
             {logo}
-            
             alt="/" 
             width='70'  
             height='70'
@@ -40,9 +40,9 @@ useEffect(()=>{
          
           <div>
             <ul className='hidden md:flex mr-8 '>
-                  {/* <NavLink to="/" > */}
+                   <NavLink  to='/' >
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F]  text-white p-4 font-bold '>Home</li>
-                    {/* </NavLink> */}
+                    </NavLink>
                 {/* <NavLink to="/aboutus" > */}
                     <li className='ml-10 text-sm uppercase hover:border-b-2  border-[#F1C40F] text-white p-4 font-bold'>About Us</li>
                 {/* </NavLink> */}

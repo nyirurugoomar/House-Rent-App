@@ -10,7 +10,7 @@ function Features() {
 
 <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
       <h1 className='text-center font-[800] text-[45px] mt-4'>Our House Features</h1>
-        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 mb-20'>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 mb-20 p-20'>
           <div>
             <Slide bottom>
             <img src={f1}  alt="" />

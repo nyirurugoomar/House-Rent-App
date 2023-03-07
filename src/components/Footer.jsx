@@ -23,7 +23,7 @@ function Footer() {
             </div>
 
             <div className=''>
-            <div className='flex ml-40 gap-8 max-w-[330px] mt-16'>
+            <div className='flex ml-40 gap-4 max-w-[330px] mt-16'>
                     <div className='rounded-full shadow-lg bg-white  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         {/* <a href='#'> */}
                         <FaFacebook />
