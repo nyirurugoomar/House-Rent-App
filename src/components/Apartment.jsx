@@ -13,7 +13,7 @@ function Apartment() {
              <h1 className='text-[40px] font-[700] text-[#0B0961] mb-10'>Apartment units for sale</h1>
          </div>
 
-         <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 mb-20 mx-10'>
+         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20 mx-10'>
             <div className='w-[360px] h-[360]'>
             <img src={onebedroom} alt="" />
             <h1 className='text-center font-[800] text-[30px] tracking-widest mt-4'>ONE BEDROOM</h1>

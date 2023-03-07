@@ -3,6 +3,7 @@ import About from './About'
 import Apartment from './Apartment'
 import Details from './Details'
 import Features from './Features'
+import Footer from './Footer'
 import Hero from './Hero'
 import Navbar from './Navbar'
 
@@ -16,6 +17,7 @@ function Home() {
      <About/>
      <Details/>
      <Apartment/>
+    <Footer/>
     </>
   )
 }
