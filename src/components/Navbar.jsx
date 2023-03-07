@@ -67,7 +67,7 @@ useEffect(()=>{
         </div>
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
            <div className={nav
-             ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#F1C40F] p-10 ease-in duration-500' 
+             ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500' 
              : 'fixed left-[-100%] top-0  p-10 ease-in duration-500'}>
             <div>
                 <div className='flex w-full items-center justify-between'>
@@ -86,7 +86,7 @@ useEffect(()=>{
                     </div>
                 </div>
                  <div className='border-b border-black my-4 '>
-                    <p className='w-[85%] md:w-[90%] py-4'>Let's make home better place</p>
+                    <p className='w-[85%] md:w-[90%] py-4'>Let Us Help You To Choose Your Best</p>
                  </div>
             </div>
             {/* for mobile */}
@@ -96,16 +96,19 @@ useEffect(()=>{
                         <li onClick={()=>setNav(false)} className='py-4 text-sm'>Home</li>
                     {/* </NavLink> */}
                     {/* <NavLink to="/aboutus"> */}
-                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>About</li>
+                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>About Us</li>
                     {/* </NavLink> */}
                     {/* <NavLink to="/services" > */}
-                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Services</li>
+                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Typologies</li>
                     {/* </NavLink> */}
                     {/* <NavLink to="/productpage" > */}
-                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Products</li>
+                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Financing</li>
+                    {/* </NavLink> */}
+                    {/* <NavLink to="/productpage" > */}
+                    <li onClick={()=>setNav(false)} className='py-4 text-sm'>Gallery</li>
                     {/* </NavLink> */}
                     {/* <Link to='/#contact'> */}
-                        <li onClick={()=>setNav(false)} className='py-4 text-sm bg-[#F1C40F] w-20 text-center rounded-xl '>Contact</li>
+                        <li onClick={()=>setNav(false)} className='py-4 text-sm bg-[#0B0961] w-20 text-center text-white rounded-xl '>Login</li>
                      {/* </Link> */}
                 </ul>
                 <div className='pt-10'>
