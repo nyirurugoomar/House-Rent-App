@@ -8,7 +8,7 @@ function Login() {
         <div className='pt-40  text-center'>
             <div className=' mx-40'>
               <div className='p-20'>
-            <h1 className='text-center text-[30px] font-[700] font-krona text-white mb-10'>Contact US</h1>
+            <h1 className='text-center text-[30px] font-[700] font-krona text-white mb-10'>Legister To Purchase House For Your Dream</h1>
                 <form
                   action=""
                   method=""
