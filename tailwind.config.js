@@ -5,7 +5,8 @@ module.exports = {
   ],
   theme: {
     backgroundImage:{
-      'hero-bg':"url('/src/assets/background.png')"
+      'hero-bg':"url('/src/assets/background.png')",
+      'about-bg':"url('/src/assets/aboutbg.png')",
 
     },
     extend: {},

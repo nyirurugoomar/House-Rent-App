@@ -37,7 +37,7 @@ function Apartment() {
          </div>
 
          <div className='items-center '>
-            <button className=' bg-[#0B0961] text-white p-4 cursor-pointer rounded-xl text-[20px]'>View More</button>
+            <button className=' bg-[#0B0961] text-white p-2 cursor-pointer rounded-xl text-[12px]'>View More</button>
          </div>
 
     </div>
