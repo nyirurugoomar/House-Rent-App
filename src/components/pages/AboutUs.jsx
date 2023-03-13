@@ -5,6 +5,8 @@ import services from './images/services.svg'
 import team from './images/team.svg'
 import decision from './images/decition.png'
 import dream from './images/dream.png'
+import Goodby from './Goodby'
+import Testimonial from './TestimonialSlide'
 
 function AboutUs() {
   return (
@@ -92,8 +94,9 @@ function AboutUs() {
             </div>
 
         </div>
+        <Testimonial/>
         
-
+    <Goodby/>
     </div>
   )
 }
